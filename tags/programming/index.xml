@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>programming on Personal space of Charanjit Singh</title>
+    <link>https://channikhabra.github.io/tags/programming/</link>
+    <description>Recent content in programming on Personal space of Charanjit Singh</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Mon, 21 Jan 2019 11:39:00 +0530</lastBuildDate>
+    
+	<atom:link href="https://channikhabra.github.io/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to maximize individual growth in a software team?</title>
+      <link>https://channikhabra.github.io/blog/how-to-maximize-individual-growth-in-a-software-team/</link>
+      <pubDate>Mon, 21 Jan 2019 11:39:00 +0530</pubDate>
+      
+      <guid>https://channikhabra.github.io/blog/how-to-maximize-individual-growth-in-a-software-team/</guid>
+      <description>Working as a solo freelance developer, I used to have lofty ideas of how a group of people can grow so much more together. I imagined how a mind in the hive can grow at exponential rates. I made several attempts to build communities striving for this, a few were successful to some degree, most were not. Now working in a software development team at Trantor, I am revisiting these ideas.</description>
+    </item>
+    
+  </channel>
+</rss>

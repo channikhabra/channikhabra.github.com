@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8"/>
+  <title>Managing Chaos : Org mode as a TODO list</title>
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
+  
+  <link href="https://channikhabra.github.io/sass/baseof.min.5699fd92fb60dc25ad8cc536b3d95a8236d299229a061140ae030e0b818a82ac.css" rel="stylesheet" />
+  
+  <meta property="og:title" content="Managing Chaos : Org mode as a TODO list" />
+<meta property="og:description" content="I am thinking about doing a small series of posts on how I am managing the chaos that I am trying to stop fighting. I hope the chaos of an ADHD mind can be utilized rather than fought against. So far it has been working out pretty great (for past ~8 months). This post is about how I manage my ever exploding list of things I want to do." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://channikhabra.github.io/blog/managing-chaos-org-mode-as-a-todo-list/" />
+
+<meta property="og:image" content="https://channikhabra.github.io/img/avatar.png" />
+<meta property="article:published_time" content="2019-01-05T00:00:00&#43;05:30"/>
+<meta property="article:modified_time" content="2019-01-05T22:00:00&#43;05:30"/>
+
+  <meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://channikhabra.github.io/img/avatar.png"/>
+
+<meta name="twitter:title" content="Managing Chaos : Org mode as a TODO list"/>
+<meta name="twitter:description" content="I am thinking about doing a small series of posts on how I am managing the chaos that I am trying to stop fighting. I hope the chaos of an ADHD mind can be utilized rather than fought against. So far it has been working out pretty great (for past ~8 months). This post is about how I manage my ever exploding list of things I want to do."/>
+
+</head>
+<body>
+      <section class="container">
+        <header class='root-header'><nav class='top-nav'>
+  <div class='brand'>
+    <a href='/'>
+      <img class='brand-avatar' src='/img/avatar.png' alt='Personal space of Charanjit Singh' />
+    </a>
+  </div>
+
+  <ul class='nav-items'>
+    
+    <li class='nav-item'><a href='/blog' title='All blog posts'>Blog</a></li>
+    
+    <li class='nav-item'><a href='/categories/poem' title='Poems'>Poems</a></li>
+    
+    <li class='nav-item'><a href='/talks' title='Talks'>Talks</a></li>
+    
+    <li class='nav-item'><a href='/about' title='About me'>About</a></li>
+    
+  </ul>
+</nav>
+</header>
+
+        <main class='root'>
+
+<link href="https://channikhabra.github.io/sass/single.min.4f3b71273857d7dbb62865a86e8d92aca2d3a327049823513768d097af377a9a.css" rel="stylesheet" />
+<section class='content'><header class='content-header'>
+  <h1>Managing Chaos : Org mode as a TODO list</h1>
+
+  <span class="content-meta">
+    <span
+      class="meta-item date">Jan 5, 2019</span>
+    
+    <span class="meta-item tags">
+      <ul>
+        
+        <li class="tag"><a href='https://channikhabra.github.io/tags/productivity'>PRODUCTIVITY</a></li>
+        
+        <li class="tag"><a href='https://channikhabra.github.io/tags/adhd'>ADHD</a></li>
+        
+      </ul>
+    </span>
+    
+  </span>
+</header>
+<article class='main-article'>
+    
+
+<p>I am thinking about doing a small series of posts on how I am managing the chaos
+that I am trying to stop fighting. I hope the chaos of an ADHD mind can be
+utilized rather than fought against. So far it has been working out pretty great
+(for past ~8 months). This post is about how I manage my ever exploding list of
+things I want to do.</p>
+
+<p>I believe one of the most important things is to externalize your thoughts.
+Making it a habit to write them down is immensely helpful. So many of my
+problems stopped being problems as I adopted writing things down more and more.
+I have very small working memory. I forget often and I forget most things. Mind
+is always thinking of new ideas, things to do, things to tell people. The
+knowledge that I am going to forget the thing I am thinking right now is
+a big source of anxiety. The burden of remembering innumerable things and then
+failing to do so has a cognitive toll of its own.</p>
+
+<p>I use org-mode as a lot of things; a TODO list is one of them. I am not going to
+get into the details of using org-mode for a beginner, but I&rsquo;ll share my flow of
+using org mode as a TODO list.</p>
+
+<h2 id="capturing-things-to-do">Capturing things to do</h2>
+
+<p>A very useful feature of org-mode is how easy it makes to &ldquo;capture&rdquo; TOOD items.
+I use Emacs as my primary text editor; being a software developer, most of my
+day time is spent in Emacs. Any time I think of something I [want|have] to do, I
+capture it with 3 keystrokes and usually immediately refile it under an
+appropriate heading. I keep 2 TODOs.org files, one for work and one for my
+personal life.</p>
+
+<p>In my personal TODOs.org file, I keep headings categorizing the kind of thing it
+is that I want to do; right now, they are =Study, Personal Development, Habits,
+Projects, Reading List, In Basket&rdquo;. &ldquo;In Basket&rdquo; heading keeps things that are
+quickly done in a day or few, and/or cannot be categorized.</p>
+
+<p>My work TODOs.org carries all my work related tasks, including Jira issues, and
+general things I want/have to do when I am in the office. I have a TODO item to
+integrate org-jira, but right now I am manually copying Jira task IDs around
+like an imbecile.</p>
+
+<p>This is how my org-capture-templates variable looks like right now:</p>
+
+<pre><code class="language-elisp">(setq
+   org-capture-templates
+   '((&quot;d&quot; &quot;Diary Entry&quot; plain (file+datetree org-agenda-diary-file) &quot;\n&lt;%&lt;%I:%M %p&gt;&gt;\n%?\n&quot;)
+     (&quot;f&quot; &quot;Feedback&quot; plain (file+datetree trantor-feedback-file) &quot;\n&lt;%&lt;%I:%M %p&gt;&gt;\n%?\n&quot;)
+     (&quot;i&quot; &quot;Idea&quot; entry (file org-ideas-file) &quot;* %?\n%T&quot;)
+     (&quot;t&quot; &quot;Todo&quot; entry (file+headline &quot;&quot; &quot;Todos&quot;) &quot;* TODO %?\n%U\n[[%F]]&quot;)
+     (&quot;c&quot; &quot;Contact&quot; entry (file org-contacts-file) &quot;* %^{Name}\n:PROPERTIES:\n:COMPANY %^{Company}\n:PHONE: %^{Phone}\n:END:&quot;)))
+</code></pre>
+
+<h2 id="delegating-things-to-future">Delegating things to future</h2>
+
+<p>Org-mode has a brilliant feature of scheduling tasks. It&rsquo;s rare for me to
+schedule a task for &ldquo;today&rdquo;; I delegate stuff to future me. I can capture and
+file things in any header, and then use org-mode&rsquo;s agenda views to filter out
+things past-me assigned for today. I try to finish the &ldquo;today&rdquo; tasks, and try to
+stay at peace when I fail to every day. Org-mode also display a count of for how
+long I&rsquo;ve been missing to do a certain task which is a handy reminder that I am
+falling short on my commitments.</p>
+
+<h2 id="prioritizing-things">Prioritizing things</h2>
+
+<p>Not all tasks are made equal. Although I try my best to not let my &ldquo;Today&rdquo; tasks
+list become too big, sometimes there is simply too much on the plate. In that
+case, I define priorities for the most important tasks, which are displayed at
+the top of the list in Day-agenda view.</p>
+
+<h2 id="tagging-items">Tagging items</h2>
+
+<p>I often tag my TODO items so I can easily filter them in the agenda view when I
+want to find things I have to do in some particular context. I often tag things by:</p>
+
+<ul>
+<li>The person&rsquo;s name who I need to be with for doing something e.g when I want to
+tell someone something</li>
+<li>The Scrum sprint in which a task need to get done. For this I don&rsquo;t tag each
+task but instead file my tasks in a &ldquo;Sprint X&rdquo; heading which is tagged, and
+org-mode automatically inherit tags to all the subheadings</li>
+<li>Place where I need to be at for doing something</li>
+<li>Some other task specific metadata that I think can be helpful for finding this
+task</li>
+</ul>
+
+<h2 id="finding-things-to-do">Finding things to do</h2>
+
+<p>Org-mode allow me to write my todo items in any order in any manner; I have
+several files where I write a lot of stuff, some of it is things to do; most if
+it isn&rsquo;t. It&rsquo;s crucial to write things down for me, because I know that I am
+going to forget it. Org-mode is immensely helpful in finding things out when I
+need it. Org-files being just text files allow me to just grep stuff; which is
+even more powerful with helm-projectile-grep. But the killer feature for finding
+out what I am supposed to be doing right now is org&rsquo;s agenda view. It allow me
+to filter things by time and tags.</p>
+
+<p>Org-mode require you to explicitly add files to a list of <code>org-agenda-files</code>.
+The agenda views only pick tasks from files in this list. I have almost all my
+org files in my agenda list. It also provides different views for the agenda;
+the one I am using most these days is the &ldquo;Day-agenda&rdquo; view, and Week-agenda
+view when I want to plan things ahead for the week.</p>
+
+<p>On my mobile, I use orgzly android app. I am not too happy with it, but it&rsquo;s the
+best I&rsquo;ve got for now. I&rsquo;ve it in my TODO list to create an app focused on
+org-mode and TODO lists the way I want it to work.</p>
+
+  </article><footer class='content-footer'>
+  <nav>
+    
+    <span class='footer-nav'>
+      <label>Previous</label>
+      <a href="https://channikhabra.github.io/blog/coming-to-terms-with-adhd-part-2/">Coming to terms with ADHD - Part 2</a>
+    </span>
+    
+
+    
+    <span class='footer-nav'>
+      <label>Next</label>
+      <a href="https://channikhabra.github.io/blog/how-to-maximize-individual-growth-in-a-software-team/">How to maximize individual growth in a software team?</a>
+    </span>
+    
+  </nav>
+
+  <div class='post-comments'>
+    <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "channikhabrasblog" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+  </div>
+</footer>
+</section>
+
+        </main>
+
+        <footer class='root-footer'>
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-40340809-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+</footer>
+      </section>
+    </body>
+</html>
