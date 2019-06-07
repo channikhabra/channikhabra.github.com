@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Talks on Personal space of Charanjit Singh</title>
-    <link>https://channikhabra.github.io/talks/</link>
+    <link>https://channikhabra.com/talks/</link>
     <description>Recent content in Talks on Personal space of Charanjit Singh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Thu, 16 Feb 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://channikhabra.github.io/talks/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://channikhabra.com/talks/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>React/Redux Workshop</title>
-      <link>https://channikhabra.github.io/talks/react-redux-workshop/</link>
+      <link>https://channikhabra.com/talks/react-redux-workshop/</link>
       <pubDate>Thu, 16 Feb 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://channikhabra.github.io/talks/react-redux-workshop/</guid>
+      <guid>https://channikhabra.com/talks/react-redux-workshop/</guid>
       <description>React/Redux workshop I gave with Programmers&amp;rsquo; Club Chandigarh meetup group after seeing community&amp;rsquo;s interest in these technologies.</description>
     </item>
     
     <item>
       <title>Modern day JS Apps (2017)</title>
-      <link>https://channikhabra.github.io/talks/modern-day-js-apps-2017/</link>
+      <link>https://channikhabra.com/talks/modern-day-js-apps-2017/</link>
       <pubDate>Tue, 07 Feb 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://channikhabra.github.io/talks/modern-day-js-apps-2017/</guid>
+      <guid>https://channikhabra.com/talks/modern-day-js-apps-2017/</guid>
       <description>I think this was the second meetup I organized after I came back from Bangalore (to Chandigarh). It was organized with Programmers&amp;rsquo; Club Chandigarh meetup group.</description>
     </item>
     
     <item>
       <title>React, Redux and Reactive programming</title>
-      <link>https://channikhabra.github.io/talks/react-redux-and-reactive-programming/</link>
+      <link>https://channikhabra.com/talks/react-redux-and-reactive-programming/</link>
       <pubDate>Fri, 08 Jul 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://channikhabra.github.io/talks/react-redux-and-reactive-programming/</guid>
+      <guid>https://channikhabra.com/talks/react-redux-and-reactive-programming/</guid>
       <description>Building a React/Redux app with a twist of Reactive programming.
  My first time speaking at a big conference! It was a great experience. There is a video as well!
   Transcript for this talk is available in its Github repository.</description>
@@ -42,20 +42,20 @@
     
     <item>
       <title>Jschannel RxJS workshop Nov 2015</title>
-      <link>https://channikhabra.github.io/talks/jschannel-rxjs-workshop-now-2015/</link>
+      <link>https://channikhabra.com/talks/jschannel-rxjs-workshop-now-2015/</link>
       <pubDate>Sun, 01 Nov 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://channikhabra.github.io/talks/jschannel-rxjs-workshop-now-2015/</guid>
+      <guid>https://channikhabra.com/talks/jschannel-rxjs-workshop-now-2015/</guid>
       <description>I was very fascinated about Reactive programming, and when we had a shortage of talks in JsChannel, I decided to give a workshop on RxJS.
 The code used in this workshop can be found in my Github.</description>
     </item>
     
     <item>
       <title>Meteor Js Jschannel Feb 2015</title>
-      <link>https://channikhabra.github.io/talks/meteor-js-jschannel-feb-2015/</link>
+      <link>https://channikhabra.com/talks/meteor-js-jschannel-feb-2015/</link>
       <pubDate>Sat, 07 Feb 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://channikhabra.github.io/talks/meteor-js-jschannel-feb-2015/</guid>
+      <guid>https://channikhabra.com/talks/meteor-js-jschannel-feb-2015/</guid>
       <description>First talk I ever gave. I was new to Bangalore and all excited about the whole idea of meetup.</description>
     </item>
     

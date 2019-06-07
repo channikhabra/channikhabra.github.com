@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>emacs on Personal space of Charanjit Singh</title>
-    <link>https://channikhabra.github.io/tags/emacs/</link>
+    <link>https://channikhabra.com/tags/emacs/</link>
     <description>Recent content in emacs on Personal space of Charanjit Singh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Fri, 11 Oct 2013 00:00:00 +0530</lastBuildDate>
     
-	<atom:link href="https://channikhabra.github.io/tags/emacs/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://channikhabra.com/tags/emacs/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>The most beautiful tutorial</title>
-      <link>https://channikhabra.github.io/blog/the-most-beautiful-tutorial/</link>
+      <link>https://channikhabra.com/blog/the-most-beautiful-tutorial/</link>
       <pubDate>Fri, 11 Oct 2013 00:00:00 +0530</pubDate>
       
-      <guid>https://channikhabra.github.io/blog/the-most-beautiful-tutorial/</guid>
+      <guid>https://channikhabra.com/blog/the-most-beautiful-tutorial/</guid>
       <description>The most beautiful tutorial I&amp;rsquo;ve ever read, &amp;ldquo;The Emacs-lisp Intro&amp;rdquo;. Run your Emacs and press &amp;lsquo;C-h-i&amp;rsquo;, and select &amp;ldquo; Emacs Lisp Intro&amp;rdquo; to read it. I am a reader, and learner, I read a lot. I used to prefer learning from books, and have a huge collection 70% of which I haven&amp;rsquo;t even ever opened (and 95% I have never completed). Most of my reads are related to programming, new languages, techniques and frameworks.</description>
     </item>
     

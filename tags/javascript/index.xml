@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>javascript on Personal space of Charanjit Singh</title>
-    <link>https://channikhabra.github.io/tags/javascript/</link>
+    <link>https://channikhabra.com/tags/javascript/</link>
     <description>Recent content in javascript on Personal space of Charanjit Singh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Wed, 12 Feb 2014 00:00:00 +0530</lastBuildDate>
     
-	<atom:link href="https://channikhabra.github.io/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://channikhabra.com/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>My notes to help learning Javascript</title>
-      <link>https://channikhabra.github.io/blog/my-notes-to-help-learning-javascript/</link>
+      <link>https://channikhabra.com/blog/my-notes-to-help-learning-javascript/</link>
       <pubDate>Wed, 12 Feb 2014 00:00:00 +0530</pubDate>
       
-      <guid>https://channikhabra.github.io/blog/my-notes-to-help-learning-javascript/</guid>
+      <guid>https://channikhabra.com/blog/my-notes-to-help-learning-javascript/</guid>
       <description>Patience You need to keep it. Don&amp;rsquo;t rush, it&amp;rsquo;s alright if you are not getting it. Specially if you are from Python world. Javascript is to Python like India is to New Zeland, things are not actually as complicated as they appear, you just need to keep little patience.
 Coffeescript is your friend Coffeescript helped me learn to think in javascript more than any book. I am not saying that you should use coffeescript, but use it for learning more about javascript.</description>
     </item>
