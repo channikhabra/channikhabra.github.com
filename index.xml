@@ -6,10 +6,21 @@
     <description>Recent content on Personal space of Charanjit Singh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Mon, 13 May 2019 14:36:00 +0530</lastBuildDate>
+    <lastBuildDate>Fri, 21 Jun 2019 11:52:12 +0530</lastBuildDate>
     
 	<atom:link href="https://channikhabra.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Lessons From a Year of TDD</title>
+      <link>https://channikhabra.com/talks/lessons-from-a-year-of-tdd/</link>
+      <pubDate>Fri, 21 Jun 2019 11:52:12 +0530</pubDate>
+      
+      <guid>https://channikhabra.com/talks/lessons-from-a-year-of-tdd/</guid>
+      <description>This talk was delivered in Technical Agility Day, Chandigarh (June 15, 2019).
+ Transcript Following is the transcript for the talk. There was no video recording, but the transcript I prepared for the talk should sufficiently convey what I meant to say in the talk.
+Introduction   Experience from a year of TDD by Charanjit Singh   Hello everyone, my name is Charanjit. I am working as a technical lead at Trantor.</description>
+    </item>
     
     <item>
       <title>Helping others to help myself</title>
