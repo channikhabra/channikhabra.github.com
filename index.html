@@ -3,12 +3,12 @@
 <html lang="en">
 
 <head>
-	<meta name="generator" content="Hugo 0.55.5" />
+	<meta name="generator" content="Hugo 0.55.6" />
   <meta charset="UTF-8"/>
   <title>Personal space of Charanjit Singh</title>
   <meta content="width=device-width, initial-scale=1" name="viewport" />
   
-  <link href="https://channikhabra.com/sass/home.min.bceb1c6b219599a3f2e746bf77cf482b73734d6d3e531dcab3f91f9ed2ae80e3.css" rel="stylesheet" />
+  <link href="https://channikhabra.com/sass/home.min.c8b562aec197c2b9aa8ac49a538b611eba9543f8194558cd3e1c8534f42ae45e.css" rel="stylesheet" />
   
   <link rel="alternate" type="application/rss+xml" href="https://channikhabra.com/index.xml" title="Personal space of Charanjit Singh" />
   <meta property="og:title" content="Personal space of Charanjit Singh" />
@@ -72,7 +72,14 @@
 
         <footer>
           
-          <a class="btn btn-secondary hire-status">Not available for Hire</a>
+          <div id='hire-me-btn' class="btn btn-secondary hire-status">
+            <span class='hire-status__title'>Not available for hire</span>
+
+            <div class='hire-status__dialog'>
+              <h2 class='hire-status__dialog__title'>Thank you for your interest!</h2>
+              <div class='hire-status__dialog__content'>Unfortunately I am not available for hire at the moment. But I am always up for a chat if you want references for some really awesome software developers!</div>
+            </div>
+          </div>
           
         </footer>
       </section>
@@ -121,5 +128,7 @@ if (!doNotTrack) {
 <script async src='https://www.google-analytics.com/analytics.js'></script>
 
     </div>
+
+    <script src='/js/main.js'></script>
   </body>
 </html>
