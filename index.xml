@@ -6,10 +6,20 @@
     <description>Recent content on Personal space of Charanjit Singh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Fri, 21 Jun 2019 11:52:12 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 26 Aug 2019 16:07:32 +0530</lastBuildDate>
     
 	<atom:link href="https://channikhabra.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Secure Software Teams Trantor</title>
+      <link>https://channikhabra.com/talks/secure-software-teams-trantor/</link>
+      <pubDate>Mon, 26 Aug 2019 16:07:32 +0530</pubDate>
+      
+      <guid>https://channikhabra.com/talks/secure-software-teams-trantor/</guid>
+      <description>I gave this talk in one of internal sessions at Trantor. Goal was to acquaint one of our software teams into the world of application security. This was a basic talk, just to familiarize attendees with basic information security concepts. I leveraged this opportunity to propose setting up a Red Team in Trantor.
+As practical part of this session, I created a docker based virtual lab with webgoat set up.</description>
+    </item>
     
     <item>
       <title>Lessons From a Year of TDD</title>
