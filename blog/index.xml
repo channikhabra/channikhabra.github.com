@@ -6,10 +6,21 @@
     <description>Recent content in Blogs on Personal space of Charanjit Singh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Mon, 13 May 2019 14:36:00 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 28 Aug 2019 12:32:45 +0530</lastBuildDate>
     
 	<atom:link href="https://channikhabra.com/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Quick and Pretty Docs for Software Projects</title>
+      <link>https://channikhabra.com/blog/quick-and-pretty-docs-for-software-projects/</link>
+      <pubDate>Wed, 28 Aug 2019 12:32:45 +0530</pubDate>
+      
+      <guid>https://channikhabra.com/blog/quick-and-pretty-docs-for-software-projects/</guid>
+      <description>I have practiced Readme Driven Development on a number of my projects with varying milage. I have often found myself wishing for a few things:
+ More structure
+When writing the documentation, and even more so when reading it. A single markdown file starts getting out of hand really quickly. On my presonal projects I go for org-mode, which keep me satisfied. But when working on a professional gig, it don&amp;rsquo;t feel right to force other developers into org-mode/emacs.</description>
+    </item>
     
     <item>
       <title>Helping others to help myself</title>
