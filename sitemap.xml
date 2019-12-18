@@ -1,6 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://channikhabra.com/tags/management/</loc>
+    <lastmod>2019-10-21T12:37:38+05:30</lastmod>
+  </url>
   
   <url>
     <loc>https://channikhabra.com/talks/personal-brands-for-software-developers-talk/</loc>
@@ -13,7 +18,17 @@
   </url>
   
   <url>
+    <loc>https://channikhabra.com/tags/</loc>
+    <lastmod>2019-10-21T12:37:38+05:30</lastmod>
+  </url>
+  
+  <url>
     <loc>https://channikhabra.com/talks/</loc>
+    <lastmod>2019-10-21T12:37:38+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://channikhabra.com/tags/trantor/</loc>
     <lastmod>2019-10-21T12:37:38+05:30</lastmod>
   </url>
   
@@ -29,6 +44,11 @@
   
   <url>
     <loc>https://channikhabra.com/talks/secure-software-teams-trantor/</loc>
+    <lastmod>2019-08-26T16:07:32+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://channikhabra.com/tags/security/</loc>
     <lastmod>2019-08-26T16:07:32+05:30</lastmod>
   </url>
   
@@ -53,22 +73,7 @@
   </url>
   
   <url>
-    <loc>https://channikhabra.com/tags/</loc>
-    <lastmod>2019-05-13T14:36:00+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://channikhabra.com/tags/management/</loc>
-    <lastmod>2019-04-01T19:29:00+05:30</lastmod>
-  </url>
-  
-  <url>
     <loc>https://channikhabra.com/blog/personal-brands-for-software-developers/</loc>
-    <lastmod>2019-04-01T19:29:00+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://channikhabra.com/tags/work/</loc>
     <lastmod>2019-04-01T19:29:00+05:30</lastmod>
   </url>
   
@@ -79,11 +84,6 @@
   
   <url>
     <loc>https://channikhabra.com/blog/how-to-maximize-individual-growth-in-a-software-team/</loc>
-    <lastmod>2019-01-21T11:39:00+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://channikhabra.com/tags/programming/</loc>
     <lastmod>2019-01-21T11:39:00+05:30</lastmod>
   </url>
   

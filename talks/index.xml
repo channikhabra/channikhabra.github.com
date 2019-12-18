@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Talks on Personal space of Charanjit Singh</title>
@@ -18,7 +18,7 @@
       
       <guid>https://channikhabra.com/talks/personal-brands-for-software-developers-talk/</guid>
       <description>After long diligence, me and my old (Trantor) team decided to organize a meetup to showcase our efforts, and to share our ideas with the local community. The meetup was organized in Trantor on September 18, 2019.
-It was a collaborative talk given in 3 parts be me, Ayush Sharma, and Sheenam Narula. Attendance was very low, but that&amp;rsquo;s usually how it is in Tricity. Overall it was a fun session with lengthy, and mostly fruitful discussions.</description>
+It was a collaborative talk given in 3 parts be me, Ayush Sharma, and Sheenam Narula. Attendance was very low, but that&#39;s usually how it is in Tricity. Overall it was a fun session with lengthy, and mostly fruitful discussions.</description>
     </item>
     
     <item>
@@ -48,7 +48,7 @@ Introduction   Experience from a year of TDD by Charanjit Singh   Hello everyone
       <pubDate>Thu, 16 Feb 2017 00:00:00 +0000</pubDate>
       
       <guid>https://channikhabra.com/talks/react-redux-workshop/</guid>
-      <description>React/Redux workshop I gave with Programmers&amp;rsquo; Club Chandigarh meetup group after seeing community&amp;rsquo;s interest in these technologies.</description>
+      <description>React/Redux workshop I gave with Programmers&amp;rsquo; Club Chandigarh meetup group after seeing community&#39;s interest in these technologies.</description>
     </item>
     
     <item>

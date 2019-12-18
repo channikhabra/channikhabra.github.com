@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Personal space of Charanjit Singh</title>
@@ -6,10 +6,37 @@
     <description>Recent content in Tags on Personal space of Charanjit Singh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Mon, 13 May 2019 14:36:00 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 21 Oct 2019 12:37:38 +0530</lastBuildDate>
     
 	<atom:link href="https://channikhabra.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>management</title>
+      <link>https://channikhabra.com/tags/management/</link>
+      <pubDate>Mon, 21 Oct 2019 12:37:38 +0530</pubDate>
+      
+      <guid>https://channikhabra.com/tags/management/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>trantor</title>
+      <link>https://channikhabra.com/tags/trantor/</link>
+      <pubDate>Mon, 21 Oct 2019 12:37:38 +0530</pubDate>
+      
+      <guid>https://channikhabra.com/tags/trantor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>security</title>
+      <link>https://channikhabra.com/tags/security/</link>
+      <pubDate>Mon, 26 Aug 2019 16:07:32 +0530</pubDate>
+      
+      <guid>https://channikhabra.com/tags/security/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>adhd</title>
@@ -26,33 +53,6 @@
       <pubDate>Mon, 13 May 2019 14:36:00 +0530</pubDate>
       
       <guid>https://channikhabra.com/tags/personal/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>management</title>
-      <link>https://channikhabra.com/tags/management/</link>
-      <pubDate>Mon, 01 Apr 2019 19:29:00 +0530</pubDate>
-      
-      <guid>https://channikhabra.com/tags/management/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>work</title>
-      <link>https://channikhabra.com/tags/work/</link>
-      <pubDate>Mon, 01 Apr 2019 19:29:00 +0530</pubDate>
-      
-      <guid>https://channikhabra.com/tags/work/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>programming</title>
-      <link>https://channikhabra.com/tags/programming/</link>
-      <pubDate>Mon, 21 Jan 2019 11:39:00 +0530</pubDate>
-      
-      <guid>https://channikhabra.com/tags/programming/</guid>
       <description></description>
     </item>
     

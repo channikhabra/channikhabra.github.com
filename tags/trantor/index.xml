@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>management on Personal space of Charanjit Singh</title>
-    <link>https://channikhabra.com/tags/management/</link>
-    <description>Recent content in management on Personal space of Charanjit Singh</description>
+    <title>trantor on Personal space of Charanjit Singh</title>
+    <link>https://channikhabra.com/tags/trantor/</link>
+    <description>Recent content in trantor on Personal space of Charanjit Singh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Mon, 21 Oct 2019 12:37:38 +0530</lastBuildDate>
     
-	<atom:link href="https://channikhabra.com/tags/management/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://channikhabra.com/tags/trantor/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -29,6 +29,16 @@ It was a collaborative talk given in 3 parts be me, Ayush Sharma, and Sheenam Na
       <guid>https://channikhabra.com/blog/quick-and-pretty-docs-for-software-projects/</guid>
       <description>I have practiced Readme Driven Development on a number of my projects with varying milage. I have often found myself wishing for a few things:
  More structureWhen writing the documentation, and even more so when reading it. A single markdown file starts getting out of hand really quickly. On my presonal projects I go for org-mode, which keep me satisfied. But when working on a professional gig, it don&#39;t feel right to force other developers into org-mode/emacs.</description>
+    </item>
+    
+    <item>
+      <title>Secure Software Teams Trantor</title>
+      <link>https://channikhabra.com/talks/secure-software-teams-trantor/</link>
+      <pubDate>Mon, 26 Aug 2019 16:07:32 +0530</pubDate>
+      
+      <guid>https://channikhabra.com/talks/secure-software-teams-trantor/</guid>
+      <description>I gave this talk in one of internal sessions at Trantor. Goal was to acquaint one of our software teams into the world of application security. This was a basic talk, just to familiarize attendees with basic information security concepts. I leveraged this opportunity to propose setting up a Red Team in Trantor.
+As practical part of this session, I created a docker based virtual lab with webgoat set up.</description>
     </item>
     
     <item>
