@@ -89,25 +89,25 @@ concepts. I leveraged this opportunity to propose setting up a Red Team in
 Trantor.</p>
 <p>As practical part of this session, I created a docker based virtual lab with
 webgoat set up. During the session we went through some of the exercises, rest
-were left for the attendees as homework. Here's the <code>docker-compose.yml</code> file
+were left for the attendees as homework. Here&rsquo;s the <code>docker-compose.yml</code> file
 that was used in the session.</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml">version: <span style="color:#e6db74">&#39;3&#39;</span>
-services:
-  webgoat:
-    image: webgoat/webgoat<span style="color:#ae81ff">-8.0</span>
-    environment:
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml"><span style="color:#66d9ef">version</span>: <span style="color:#e6db74">&#39;3&#39;</span>
+<span style="color:#66d9ef">services</span>:
+  <span style="color:#66d9ef">webgoat</span>:
+    <span style="color:#66d9ef">image</span>: webgoat/webgoat<span style="color:#ae81ff">-8.0</span>
+    <span style="color:#66d9ef">environment</span>:
       - WEBWOLF_HOST=webwolf
       - WEBWOLF_PORT=<span style="color:#ae81ff">9090</span>
-    ports:
+    <span style="color:#66d9ef">ports</span>:
       - <span style="color:#e6db74">&#34;8080:8080&#34;</span>
       - <span style="color:#e6db74">&#34;9001:9001&#34;</span>
-    volumes:
+    <span style="color:#66d9ef">volumes</span>:
       - ./docker-volumes/webgoat-home:/home/webgoat/.webgoat
-  webwolf:
-    image: webgoat/webwolf
-    ports:
+  <span style="color:#66d9ef">webwolf</span>:
+    <span style="color:#66d9ef">image</span>: webgoat/webwolf
+    <span style="color:#66d9ef">ports</span>:
       - <span style="color:#e6db74">&#34;9090:9090&#34;</span>
-    command: --spring.datasource.url=jdbc:hsqldb:hsql://webgoat:<span style="color:#ae81ff">9001</span>/webgoat --server.address=<span style="color:#ae81ff">0.0</span><span style="color:#ae81ff">.0</span><span style="color:#ae81ff">.0</span>
+    <span style="color:#66d9ef">command</span>: --spring.datasource.url=jdbc:hsqldb:hsql://webgoat:<span style="color:#ae81ff">9001</span>/webgoat --server.address=<span style="color:#ae81ff">0.0</span><span style="color:#ae81ff">.0</span><span style="color:#ae81ff">.0</span>
 </code></pre></div><p>To start the lab, simply create a directory, save above snippet as
 <code>docker-compose.yml</code>, and run <code>docker-compose up</code> in it. You will then be able
 to access webgoat on http://localhost:8080/WebGoat</p>

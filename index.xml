@@ -18,7 +18,7 @@
       
       <guid>https://channikhabra.com/talks/personal-brands-for-software-developers-talk/</guid>
       <description>After long diligence, me and my old (Trantor) team decided to organize a meetup to showcase our efforts, and to share our ideas with the local community. The meetup was organized in Trantor on September 18, 2019.
-It was a collaborative talk given in 3 parts be me, Ayush Sharma, and Sheenam Narula. Attendance was very low, but that&#39;s usually how it is in Tricity. Overall it was a fun session with lengthy, and mostly fruitful discussions.</description>
+It was a collaborative talk given in 3 parts be me, Ayush Sharma, and Sheenam Narula. Attendance was very low, but that&amp;rsquo;s usually how it is in Tricity. Overall it was a fun session with lengthy, and mostly fruitful discussions.</description>
     </item>
     
     <item>
@@ -28,7 +28,7 @@ It was a collaborative talk given in 3 parts be me, Ayush Sharma, and Sheenam Na
       
       <guid>https://channikhabra.com/blog/quick-and-pretty-docs-for-software-projects/</guid>
       <description>I have practiced Readme Driven Development on a number of my projects with varying milage. I have often found myself wishing for a few things:
- More structureWhen writing the documentation, and even more so when reading it. A single markdown file starts getting out of hand really quickly. On my presonal projects I go for org-mode, which keep me satisfied. But when working on a professional gig, it don&#39;t feel right to force other developers into org-mode/emacs.</description>
+ More structureWhen writing the documentation, and even more so when reading it. A single markdown file starts getting out of hand really quickly. On my presonal projects I go for org-mode, which keep me satisfied. But when working on a professional gig, it don&amp;rsquo;t feel right to force other developers into org-mode/emacs.</description>
     </item>
     
     <item>
@@ -58,7 +58,7 @@ Introduction   Experience from a year of TDD by Charanjit Singh   Hello everyone
       <pubDate>Mon, 13 May 2019 14:36:00 +0530</pubDate>
       
       <guid>https://channikhabra.com/blog/coming-to-terms-with-adhd-help-others-to-help-yourself/</guid>
-      <description>It is near impossible for me to get something done if I don&#39;t have 100% peaked interest in it at this very moment. Occasionally I can hyper focus on things, but that hyper focus rarely finish things. Hyper focus is like eating all the desert, leaving behind a plate full of broccoli.
+      <description>It is near impossible for me to get something done if I don&amp;rsquo;t have 100% peaked interest in it at this very moment. Occasionally I can hyper focus on things, but that hyper focus rarely finish things. Hyper focus is like eating all the desert, leaving behind a plate full of broccoli.
 I have noticed however that most of the times when I have actually finished something, I was, in my mind, helping someone else.</description>
     </item>
     
@@ -68,7 +68,7 @@ I have noticed however that most of the times when I have actually finished some
       <pubDate>Mon, 01 Apr 2019 19:29:00 +0530</pubDate>
       
       <guid>https://channikhabra.com/blog/personal-brands-for-software-developers/</guid>
-      <description>Reflecting on the progress we have made in our &amp;ldquo;nurture a culture of individual growth in a software team&amp;rdquo; initiative, I realized there is much to gain from candy wrapping our efforts. As per our plan, we&#39;ll be (and are) giving talks, doing research, and writing itch-scratching code. Coming out of shadows and presenting our efforts in a nice frame present many fold benefits.
+      <description>Reflecting on the progress we have made in our &amp;ldquo;nurture a culture of individual growth in a software team&amp;rdquo; initiative, I realized there is much to gain from candy wrapping our efforts. As per our plan, we&amp;rsquo;ll be (and are) giving talks, doing research, and writing itch-scratching code. Coming out of shadows and presenting our efforts in a nice frame present many fold benefits.
 My proposal is to invest energy in making our efforts more visible.</description>
     </item>
     
@@ -78,8 +78,8 @@ My proposal is to invest energy in making our efforts more visible.</description
       <pubDate>Tue, 26 Mar 2019 15:08:00 +0530</pubDate>
       
       <guid>https://channikhabra.com/blog/maximize-individual-growing-in-a-software-team-2-month-report/</guid>
-      <description>Couple months ago we started an initiative in our team here at Trantor with the focus on nurturing a culture which optimizes personal growth of an individual in the team. I believe it is turning out to be quite successful. We decided we&#39;ll focus on 4 things to achieve our goal:
-Interactive sessions of tools/technologies This is where we&#39;ve observed most success. We have had 4 sessions in past 2 months (we do two-week sprints), with following primary topics:</description>
+      <description>Couple months ago we started an initiative in our team here at Trantor with the focus on nurturing a culture which optimizes personal growth of an individual in the team. I believe it is turning out to be quite successful. We decided we&amp;rsquo;ll focus on 4 things to achieve our goal:
+Interactive sessions of tools/technologies This is where we&amp;rsquo;ve observed most success. We have had 4 sessions in past 2 months (we do two-week sprints), with following primary topics:</description>
     </item>
     
     <item>
@@ -117,7 +117,7 @@ This got better when I found computers. A book I found while sitting in the wron
       <pubDate>Sat, 15 Dec 2018 18:51:00 +0530</pubDate>
       
       <guid>https://channikhabra.com/blog/coming-to-terms-with-adhd/</guid>
-      <description>After my recent subscription to /r/adhd, I realized how important it can be to share experiences. Even when it is something very personal and seem unlikely that anyone can relate to it, it can be quite helpful for someone who thinks she&#39;s alone with her struggles. A while back I deleted most of my old blog posts feeling embarrassed of their suspected cringeworthiness. Now I think it was a mistake. I am thinking about resurrecting them from archive.</description>
+      <description>After my recent subscription to /r/adhd, I realized how important it can be to share experiences. Even when it is something very personal and seem unlikely that anyone can relate to it, it can be quite helpful for someone who thinks she&amp;rsquo;s alone with her struggles. A while back I deleted most of my old blog posts feeling embarrassed of their suspected cringeworthiness. Now I think it was a mistake. I am thinking about resurrecting them from archive.</description>
     </item>
     
     <item>
@@ -156,7 +156,7 @@ I believe writing software is a lot more than just churning out code.</descripti
       <pubDate>Thu, 16 Feb 2017 00:00:00 +0000</pubDate>
       
       <guid>https://channikhabra.com/talks/react-redux-workshop/</guid>
-      <description>React/Redux workshop I gave with Programmers&amp;rsquo; Club Chandigarh meetup group after seeing community&#39;s interest in these technologies.</description>
+      <description>React/Redux workshop I gave with Programmers&amp;rsquo; Club Chandigarh meetup group after seeing community&amp;rsquo;s interest in these technologies.</description>
     </item>
     
     <item>
@@ -249,7 +249,7 @@ The code used in this workshop can be found in my Github.</description>
       <pubDate>Sat, 12 Sep 2015 22:21:00 +0530</pubDate>
       
       <guid>https://channikhabra.com/blog/reality/</guid>
-      <description>It is one of those rare times I decide to write a blog post without life taking a huge shit on me. Or am I just projecting success for attracting success? Guess bitches. Hope you&#39;re all living in reality and not losing yourself in your imaginary fantasy world. Guess what? You&#39;re not living in reality. There is no reality to live in.
+      <description>It is one of those rare times I decide to write a blog post without life taking a huge shit on me. Or am I just projecting success for attracting success? Guess bitches. Hope you&amp;rsquo;re all living in reality and not losing yourself in your imaginary fantasy world. Guess what? You&amp;rsquo;re not living in reality. There is no reality to live in.
 Reality like God can not be seen, observed, or proven.</description>
     </item>
     
@@ -436,7 +436,7 @@ I started my first blog in 2011 (I run two now). It was first time I got an Inte
       <pubDate>Wed, 12 Feb 2014 00:00:00 +0530</pubDate>
       
       <guid>https://channikhabra.com/blog/my-notes-to-help-learning-javascript/</guid>
-      <description>Patience You need to keep it. Don&#39;t rush, it&#39;s alright if you are not getting it. Specially if you are from Python world. Javascript is to Python like India is to New Zeland, things are not actually as complicated as they appear, you just need to keep little patience.
+      <description>Patience You need to keep it. Don&amp;rsquo;t rush, it&amp;rsquo;s alright if you are not getting it. Specially if you are from Python world. Javascript is to Python like India is to New Zeland, things are not actually as complicated as they appear, you just need to keep little patience.
 Coffeescript is your friend Coffeescript helped me learn to think in javascript more than any book. I am not saying that you should use coffeescript, but use it for learning more about javascript.</description>
     </item>
     
@@ -456,7 +456,7 @@ Coffeescript is your friend Coffeescript helped me learn to think in javascript 
       <pubDate>Fri, 11 Oct 2013 00:00:00 +0530</pubDate>
       
       <guid>https://channikhabra.com/blog/the-most-beautiful-tutorial/</guid>
-      <description>The most beautiful tutorial I&#39;ve ever read, &amp;ldquo;The Emacs-lisp Intro&amp;rdquo;. Run your Emacs and press &amp;lsquo;C-h-i&amp;rsquo;, and select &amp;quot; Emacs Lisp Intro&amp;rdquo; to read it. I am a reader, and learner, I read a lot. I used to prefer learning from books, and have a huge collection 70% of which I haven&#39;t even ever opened (and 95% I have never completed). Most of my reads are related to programming, new languages, techniques and frameworks.</description>
+      <description>The most beautiful tutorial I&amp;rsquo;ve ever read, &amp;ldquo;The Emacs-lisp Intro&amp;rdquo;. Run your Emacs and press &amp;lsquo;C-h-i&amp;rsquo;, and select &amp;quot; Emacs Lisp Intro&amp;rdquo; to read it. I am a reader, and learner, I read a lot. I used to prefer learning from books, and have a huge collection 70% of which I haven&amp;rsquo;t even ever opened (and 95% I have never completed). Most of my reads are related to programming, new languages, techniques and frameworks.</description>
     </item>
     
     <item>

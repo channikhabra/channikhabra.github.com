@@ -10,7 +10,7 @@
   
   <meta property="og:title" content="Quick and Pretty Docs for Software Projects" />
 <meta property="og:description" content="I have practiced Readme Driven Development on a number of my projects with varying milage. I have often found myself wishing for a few things:
- More structureWhen writing the documentation, and even more so when reading it. A single markdown file starts getting out of hand really quickly. On my presonal projects I go for org-mode, which keep me satisfied. But when working on a professional gig, it don&#39;t feel right to force other developers into org-mode/emacs." />
+ More structureWhen writing the documentation, and even more so when reading it. A single markdown file starts getting out of hand really quickly. On my presonal projects I go for org-mode, which keep me satisfied. But when working on a professional gig, it don&rsquo;t feel right to force other developers into org-mode/emacs." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://channikhabra.com/blog/quick-and-pretty-docs-for-software-projects/" />
 <meta property="og:image" content="https://channikhabra.com/img/avatar.png"/>
@@ -22,7 +22,7 @@
 
 <meta name="twitter:title" content="Quick and Pretty Docs for Software Projects"/>
 <meta name="twitter:description" content="I have practiced Readme Driven Development on a number of my projects with varying milage. I have often found myself wishing for a few things:
- More structureWhen writing the documentation, and even more so when reading it. A single markdown file starts getting out of hand really quickly. On my presonal projects I go for org-mode, which keep me satisfied. But when working on a professional gig, it don&#39;t feel right to force other developers into org-mode/emacs."/>
+ More structureWhen writing the documentation, and even more so when reading it. A single markdown file starts getting out of hand really quickly. On my presonal projects I go for org-mode, which keep me satisfied. But when working on a professional gig, it don&rsquo;t feel right to force other developers into org-mode/emacs."/>
 
 </head>
 <body>
@@ -79,7 +79,7 @@ wishing for a few things:</p>
 <li><strong>More structure</strong><!-- raw HTML omitted --> When writing the documentation, and even more so
 when reading it. A single markdown file starts getting out of hand really
 quickly. On my presonal projects I go for org-mode, which keep me satisfied.
-But when working on a professional gig, it don't feel right to force other
+But when working on a professional gig, it don&rsquo;t feel right to force other
 developers into org-mode/emacs.</li>
 <li><strong>Prettiness</strong><!-- raw HTML omitted --> Markdown is a quite reasonably readable format, but
 there is always room for prettyness.</li>
@@ -105,7 +105,7 @@ and well, prettiness.</p>
 <p>Every markdown file in <code>content</code> directory adds to the generated documentation.</p>
 <p>Here is the Dockerfile I have used to create the docs container. It downloads
 and sets up hugo with the theme in a single command without anything other than
-docker installed on a developer's machine.</p>
+docker installed on a developer&rsquo;s machine.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-dockerfile" data-lang="dockerfile"><span style="color:#66d9ef">FROM</span><span style="color:#e6db74"> alpine:latest</span><span style="color:#960050;background-color:#1e0010">
 </span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#960050;background-color:#1e0010">
 </span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#66d9ef">WORKDIR</span><span style="color:#e6db74"> /app</span><span style="color:#960050;background-color:#1e0010">
@@ -134,7 +134,7 @@ docker installed on a developer's machine.</p>
 as well. It is possible to change the theme and theme version by setting
 environment variables <code>HUGO_THEME_URL</code> and <code>HUGO_THEME_COMMIT</code> when building the
 docker image.</p>
-<p>Here is <code>config.toml</code> file I've used for my <code>docs</code>, which allow me to configure
+<p>Here is <code>config.toml</code> file I&rsquo;ve used for my <code>docs</code>, which allow me to configure
 the hugo theme with above mentioned environment variable only:</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-toml" data-lang="toml"><span style="color:#a6e22e">buildDrafts</span> = <span style="color:#66d9ef">true</span>
 <span style="color:#a6e22e">title</span> = <span style="color:#e6db74">&#34;My Project&#34;</span>
