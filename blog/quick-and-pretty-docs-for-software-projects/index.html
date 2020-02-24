@@ -107,17 +107,17 @@ and well, prettiness.</p>
 and sets up hugo with the theme in a single command without anything other than
 docker installed on a developer&rsquo;s machine.</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-dockerfile" data-lang="dockerfile"><span style="color:#66d9ef">FROM</span><span style="color:#e6db74"> alpine:latest</span><span style="color:#960050;background-color:#1e0010">
-</span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010">
 </span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#66d9ef">WORKDIR</span><span style="color:#e6db74"> /app</span><span style="color:#960050;background-color:#1e0010">
-</span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010">
 </span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#66d9ef">EXPOSE</span><span style="color:#e6db74"> 80</span><span style="color:#960050;background-color:#1e0010">
 </span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#66d9ef">ENV</span> HOST<span style="color:#f92672">=</span><span style="color:#ae81ff">0</span>.0.0.0<span style="color:#960050;background-color:#1e0010">
-</span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010">
 </span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#66d9ef">RUN</span> apk update <span style="color:#f92672">&amp;&amp;</span> apk add hugo git<span style="color:#960050;background-color:#1e0010">
-</span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010">
 </span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#66d9ef">ENV</span> HUGO_THEME_URL<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;https://github.com/matcornic/hugo-theme-learn&#39;</span><span style="color:#960050;background-color:#1e0010">
 </span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#66d9ef">ENV</span> HUGO_THEME_COMMIT<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;2.4.0&#39;</span><span style="color:#960050;background-color:#1e0010">
-</span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010">
 </span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#66d9ef">RUN</span> mkdir -p /themes/current <span style="color:#ae81ff">\
 </span><span style="color:#ae81ff"></span>  <span style="color:#f92672">&amp;&amp;</span> cd /themes/current <span style="color:#ae81ff">\
 </span><span style="color:#ae81ff"></span>  <span style="color:#f92672">&amp;&amp;</span> git init <span style="color:#ae81ff">\
@@ -126,9 +126,9 @@ docker installed on a developer&rsquo;s machine.</p>
 </span><span style="color:#ae81ff"></span>  <span style="color:#f92672">&amp;&amp;</span> git checkout FETCH_HEAD <span style="color:#ae81ff">\
 </span><span style="color:#ae81ff"></span>  <span style="color:#f92672">&amp;&amp;</span> cd /app<span style="color:#960050;background-color:#1e0010">
 </span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#66d9ef">RUN</span> echo <span style="color:#e6db74">&#34;alias hugo=&#39;hugo --themesDir /themes --theme current&#39;&#34;</span> &gt; ~/.profile<span style="color:#960050;background-color:#1e0010">
-</span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010">
 </span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#66d9ef">COPY</span> . /app<span style="color:#960050;background-color:#1e0010">
-</span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#960050;background-color:#1e0010">
+</span><span style="color:#960050;background-color:#1e0010">
 </span><span style="color:#960050;background-color:#1e0010"></span><span style="color:#66d9ef">CMD</span> hugo serve --port <span style="color:#ae81ff">3000</span> --bind<span style="color:#f92672">=</span><span style="color:#e6db74">&#39;0.0.0.0&#39;</span> --themesDir /themes --theme current</code></pre></div>
 <p>When exposed on port <code>3000</code>, it allows live-reloading of docs and search in docs
 as well. It is possible to change the theme and theme version by setting

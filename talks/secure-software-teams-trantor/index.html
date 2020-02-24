@@ -107,7 +107,7 @@ that was used in the session.</p>
     <span style="color:#66d9ef">image</span>: webgoat/webwolf
     <span style="color:#66d9ef">ports</span>:
       - <span style="color:#e6db74">&#34;9090:9090&#34;</span>
-    <span style="color:#66d9ef">command</span>: --spring.datasource.url=jdbc:hsqldb:hsql://webgoat:<span style="color:#ae81ff">9001</span>/webgoat --server.address=<span style="color:#ae81ff">0.0</span><span style="color:#ae81ff">.0</span><span style="color:#ae81ff">.0</span>
+    <span style="color:#66d9ef">command</span>: --spring.datasource.url=jdbc:hsqldb:hsql://webgoat:<span style="color:#ae81ff">9001</span>/webgoat --server.address=<span style="color:#ae81ff">0.0.0.0</span>
 </code></pre></div><p>To start the lab, simply create a directory, save above snippet as
 <code>docker-compose.yml</code>, and run <code>docker-compose up</code> in it. You will then be able
 to access webgoat on http://localhost:8080/WebGoat</p>
