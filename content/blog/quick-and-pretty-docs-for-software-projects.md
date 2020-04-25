@@ -1,0 +1,98 @@
+---
+title: "Quick and Pretty Docs for Software Projects"
+date: 2019-08-28T12:32:45+05:30
+draft: false
+tags: ["management", "trantor"]
+---
+
+I have practiced [Readme Driven
+Development](http://tom.preston-werner.com/2010/08/23/readme-driven-development.html)
+on a number of my projects with varying milage. I have often found myself
+wishing for a few things:
+
+1. **More structure**<br /> When writing the documentation, and even more so
+    when reading it. A single markdown file starts getting out of hand really
+    quickly. On my presonal projects I go for org-mode, which keep me satisfied.
+    But when working on a professional gig, it don't feel right to force other
+    developers into org-mode/emacs.
+2. **Prettiness**<br /> Markdown is a quite reasonably readable format, but
+   there is always room for prettyness.
+
+Basically I wish for github-pages with more structure; so, a statically generate
+site.
+
+To minimize the added complexity to our dev setup, and since I am already
+using docker to run dev-environments for almost all of my projects, I chose to
+leverage it for building my readme as a local "service". i.e I chose to
+structure my documentation with filesystem, and use docker to abstract the
+complexity of setting up the static site generator.
+
+I have chosen hugo because of its simplicity. Its intuitive content management
+means near-zero learning curve for my teammates to start contributing
+documentation. I chose
+[hugo-theme-learn](https://github.com/matcornic/hugo-theme-learn) because of its
+simplicity, [mermaid.js](https://mermaidjs.github.io/) support for UML diagrams,
+and well, prettiness.
+
+I have a directory named `docs` in our repository, with following general structure:
+
+{{< highlight sh >}}
+.
+├── config.toml
+├── content
+└── Dockerfile
+{{< /highlight >}}
+
+Every markdown file in `content` directory adds to the generated documentation.
+
+Here is the Dockerfile I have used to create the docs container. It downloads
+and sets up hugo with the theme in a single command without anything other than
+docker installed on a developer's machine.
+
+{{< highlight dockerfile >}}
+FROM alpine:latest
+
+WORKDIR /app
+
+EXPOSE 80
+ENV HOST=0.0.0.0
+
+RUN apk update && apk add hugo git
+
+ENV HUGO_THEME_URL='https://github.com/matcornic/hugo-theme-learn'
+ENV HUGO_THEME_COMMIT='2.4.0'
+
+RUN mkdir -p /themes/current \
+  && cd /themes/current \
+  && git init \
+  && git remote add origin $HUGO_THEME_URL \
+  && git fetch --depth 1 origin $HUGO_THEME_COMMIT \
+  && git checkout FETCH_HEAD \
+  && cd /app
+RUN echo "alias hugo='hugo --themesDir /themes --theme current'" > ~/.profile
+
+COPY . /app
+
+CMD hugo serve --port 3000 --bind='0.0.0.0' --themesDir /themes --theme current
+{{< /highlight >}}
+
+When exposed on port `3000`, it allows live-reloading of docs and search in docs
+as well. It is possible to change the theme and theme version by setting
+environment variables `HUGO_THEME_URL` and `HUGO_THEME_COMMIT` when building the
+docker image.
+
+Here is `config.toml` file I've used for my `docs`, which allow me to configure
+the hugo theme with above mentioned environment variable only:
+
+{{< highlight toml >}}
+buildDrafts = true
+title = "My Project"
+
+# For search functionality
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+
+[params]
+  author = "My team"
+  description = "My project's cloud"
+{{< /highlight >}}

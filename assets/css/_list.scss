@@ -1,0 +1,72 @@
+.generic-listing {
+  list-style-type: none;
+  font-family: Cantarell, sans-serif;
+}
+
+.generic-li {
+  display: flex;
+  line-height: 1.3;
+  padding: 0.3em 0;
+  align-items: center;
+  margin-bottom: 0.6em;
+}
+
+.li-icon {
+  display: block;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  content: '';
+  width: 88px;
+  height: 48px;
+  flex-shrink: 0;
+
+  &--blog {
+    background-image: url('/assets/images/icons/post.svg');
+  }
+
+  &--talks {
+    background-image: url('/assets/images/icons/talk.svg');
+  }
+}
+
+.generic-li-title {
+  font-size: 1.2em;
+}
+
+.generic-li-meta {
+  margin-top: 0.5em;
+  font-size: 0.6em;
+}
+
+.generic-li-meta, .generic-li-meta a {
+  font-family: Robot, sans-serif;
+  color: $secondary-color;
+  display: flex;
+
+  .meta-item {
+    border-right: 1px solid $separator;
+    line-height: 1;
+    padding: 0 1em;
+    display: flex;
+
+    &:last-child {
+      padding-right: 0;
+      border: none;
+    }
+  }
+
+  .date {
+    width: 104px;
+    padding: 0;
+  }
+
+  .tags ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .tag {
+    padding-right: 1em;
+  }
+}

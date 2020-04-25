@@ -1,0 +1,21 @@
+<ul class='generic-listing'>
+  $for(posts)$
+  <li class='generic-li'>
+    <span class='li-icon li-icon--$category$'></span>
+
+    <div class='generic-li-content'>
+      <a class='generic-li-title' href='$url$'>$title$</a>
+
+      <span class="generic-li-meta">
+        <span class="meta-item date">$date$</span>
+
+        $if(tags)$
+        <span class="meta-item tags">
+          $tags$
+        </span>
+        $endif$
+      </span>
+    </div>
+  </li>
+  $endfor$
+</ul>

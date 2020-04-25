@@ -1,0 +1,41 @@
+<section class='container'>
+  <header class='root-header'>
+    <nav class='top-nav'>
+      <div class='brand'>
+        <a href='/'>
+          <img class='brand-avatar' src='$avatar$' alt='$name$' />
+        </a>
+      </div>
+
+      <ul class='nav-items'>
+        <li class='nav-item'><a href='/blog' title='blog'>Blog</a></li>
+        <li class='nav-item'><a href='/poems' title='blog'>Poems</a></li>
+        <li class='nav-item'><a href='/projects' title='blog'>Projects</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class='root $category$'>
+    <section class='content'>
+      $body$
+    </section>
+  </main>
+
+  <footer class='content-footer'>
+    <nav>
+      $if(prev)$
+      <span class='footer-nav'>
+        <label>Previous</label>
+        <a href="#">$prevTitle$</a>
+      </span>
+      $endif$
+
+      $if(next)$
+      <span class='footer-nav'>
+        <label>Next</label>
+        <a href="$nextUrl$">$nextTitle$</a>
+      </span>
+      $endif$
+    </nav>
+  </footer>
+</section>

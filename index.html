@@ -1,0 +1,73 @@
+<body class='home'>
+  <div class='sidebar'>
+    <div class="author">
+      <img
+        class='avatar'
+        src='$avatar$'
+        alt='$name$'
+      />
+
+      <h2 class="name">$name$</h2>
+      <p class="handle">@$handle$</p>
+    </div>
+
+    <div class="quote">
+      Maths is the new sexy
+    </div>
+
+    <div class="social">
+      <a href="$github$" title="$name$ on Github" target='blank'><span class="github"></span></a>
+      <a href="$stackoverflow$" title="$name$ on Stackoverflow" target='blank'><span class="stackoverflow"></span></a>
+      <a href="$linkedin$" title='$name$ on LinkedIn' target='blank'><span class="linkedin"></span></a>
+      <a  href="/rss.xml" title='Follow via RSS' target='blank'><span class="rss"></span></a>
+    </div>
+
+    <img class="pub-key-qr" alt="$name$'s Public GPG Key" src="$gpgPublicQr$" />
+  </div>
+
+  <div class="content">
+    <section class='about-me-snippet'>
+      <header><h2>About Me</h2></header>
+
+      <p>I write software to make a living. I enjoy doing so. Both writing software and making a living.</p>
+      <p>I also enjoy writing, giving talks and discussing engaging topics. Mostly technical.</p>
+      <p>This website has things I am willing to share publicly.
+        You can go through my
+        <a href='/blog'>blog</a>,
+        <a href="/categories/poem/">poems</a>,
+        <a href="$github$" target='_blank'>projects</a>,
+        <a href="/talks">talks</a>, or if you are considering hiring a software architect, then my
+        <a href="$resume$" target='_blank'>resume</a> as well.
+      </p>
+
+      <footer>
+        <div id='hire-me-btn' class="btn btn-secondary hire-status">
+          <span class='hire-status__title'>Hire me</span>
+
+          <div class='hire-status__dialog'>
+            <h2 class='hire-status__dialog__title'>Not available for hire</h2>
+            <div class='hire-status__dialog__content'>Thank you for your intereset. Unfortunately I am not availabe for hire right now.</div>
+          </div>
+        </div>
+      </footer>
+    </section>
+
+    <section class='recent-content'>
+      <header><h2>Recent Content</h2></header>
+      <ul class="recent-content-list">
+        $for(posts)$
+        <li>
+          <a href='$url$' class="recent-content-item content-type--$category$">$title$</a>
+        </li>
+        $endfor$
+      </ul>
+
+      <footer><a class='btn btn-primary read-more-btn' href='/blog'>See all</a></footer>
+    </section>
+  </div>
+
+  <div class='home-footer'>
+  </div>
+
+  <script src='/assets/js/main.js'></script>
+</body>
