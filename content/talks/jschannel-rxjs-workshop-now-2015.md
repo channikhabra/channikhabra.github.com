@@ -4,7 +4,17 @@ date: 2015-11-01
 draft: false
 ---
 
-{{< slidescom "channikhabra/jschannel-rxjs-workshop-nov-2015" >}}
+<iframe
+  src="//slides.com/channikhabra/jschannel-rxjs-workshop-nov-2015/embed?style=light"
+  width="100%"
+  height="420"
+  scrolling="no"
+  frameborder="0"
+  webkitallowfullscreen
+  mozallowfullscreen
+  allowfullscreen
+></iframe>
+
 
 I was very fascinated about Reactive programming, and when we had a shortage of
 talks in [JsChannel](https://www.meetup.com/jslovers-bengaluru/), I decided to

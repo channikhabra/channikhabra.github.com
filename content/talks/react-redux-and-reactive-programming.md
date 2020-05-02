@@ -4,7 +4,16 @@ date: 2016-07-08
 draft: false
 ---
 
-{{< slidescom "channikhabra/react-redux-and-reactive-programming" >}}
+<iframe
+  src="//slides.com/channikhabra/react-redux-and-reactive-programming/embed?style=light"
+  width="100%"
+  height="420"
+  scrolling="no"
+  frameborder="0"
+  webkitallowfullscreen
+  mozallowfullscreen
+  allowfullscreen
+></iframe>
 
 > Building a React/Redux app with a twist of Reactive programming.
 

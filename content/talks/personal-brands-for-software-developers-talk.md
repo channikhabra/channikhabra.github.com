@@ -16,4 +16,13 @@ Overall it was a fun session with lengthy, and mostly fruitful discussions.
 
 Here's my set of slides from the talk:
 
-{{< slidescom "channikhabra/personal-brands-for-software-developers" >}}
+<iframe
+  src="//slides.com/channikhabra/personal-brands-for-software-developers/embed?style=light"
+  width="100%"
+  height="420"
+  scrolling="no"
+  frameborder="0"
+  webkitallowfullscreen
+  mozallowfullscreen
+  allowfullscreen
+></iframe>

@@ -5,7 +5,16 @@ draft: false
 images: ["/talks/lessons-from-a-year-of-tdd/slides/01--introduction-to-tdd-talk.png"]
 ---
 
-{{< slidescom "channikhabra/lessons-from-a-year-of-tdd" >}}
+<iframe
+  src="//slides.com/channikhabra/lessons-from-a-year-of-tdd/embed?style=light"
+  width="100%"
+  height="420"
+  scrolling="no"
+  frameborder="0"
+  webkitallowfullscreen
+  mozallowfullscreen
+  allowfullscreen
+></iframe>
 
 > This talk was delivered in [Technical Agility Day, Chandigarh (June 15, 2019)](https://agilenetworkindia.com/events/technical-agility-day-chandigarh/ "Technical Agility Day").
 

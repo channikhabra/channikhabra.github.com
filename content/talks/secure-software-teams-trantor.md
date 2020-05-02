@@ -4,7 +4,16 @@ date: 2019-08-26T16:07:32+05:30
 tags: ["security", "trantor"]
 ---
 
-{{< slidescom "channikhabra/secure-software-teams" >}}
+<iframe
+  src="//slides.com/channikhabra/secure-software-teams/embed?style=light"
+  width="100%"
+  height="420"
+  scrolling="no"
+  frameborder="0"
+  webkitallowfullscreen
+  mozallowfullscreen
+  allowfullscreen
+></iframe>
 
 I gave this talk in one of internal sessions at Trantor. Goal was to acquaint
 one of our software teams into the world of application security. This was a
