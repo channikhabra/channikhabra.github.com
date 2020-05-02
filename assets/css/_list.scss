@@ -39,34 +39,31 @@
 }
 
 .generic-li-meta, .generic-li-meta a {
-  font-family: Robot, sans-serif;
+  font-family: Roboto, sans-serif;
   color: $secondary-color;
   display: flex;
 
   .meta-item {
     border-right: 1px solid $separator;
     line-height: 1;
-    padding: 0 1em;
+    padding: 0;
+    padding-right: 1em;
     display: flex;
 
     &:last-child {
       padding-right: 0;
-      border: none;
+      border-right: none;
     }
   }
 
-  .date {
-    width: 104px;
-    padding: 0;
-  }
-
-  .tags ul {
-    list-style-type: none;
+  .tags {
     display: flex;
     flex-wrap: wrap;
+    text-transform: capitalize;
+
+    a {
+      margin-left: 1em;
+    }
   }
 
-  .tag {
-    padding-right: 1em;
-  }
 }
