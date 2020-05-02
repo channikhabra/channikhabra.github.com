@@ -27,6 +27,11 @@
   &--talks {
     background-image: url('/assets/images/icons/talk.svg');
   }
+
+  &--poems {
+    background-image: url('/assets/images/icons/poems.svg');
+    background-size: contain;
+  }
 }
 
 .generic-li-title {
