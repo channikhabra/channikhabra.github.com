@@ -36,12 +36,12 @@ and well, prettiness.
 
 I have a directory named `docs` in our repository, with following general structure:
 
-{{< highlight sh >}}
+```sh
 .
 ├── config.toml
 ├── content
 └── Dockerfile
-{{< /highlight >}}
+```
 
 Every markdown file in `content` directory adds to the generated documentation.
 
@@ -49,7 +49,7 @@ Here is the Dockerfile I have used to create the docs container. It downloads
 and sets up hugo with the theme in a single command without anything other than
 docker installed on a developer's machine.
 
-{{< highlight dockerfile >}}
+```dockerfile
 FROM alpine:latest
 
 WORKDIR /app
@@ -74,7 +74,7 @@ RUN echo "alias hugo='hugo --themesDir /themes --theme current'" > ~/.profile
 COPY . /app
 
 CMD hugo serve --port 3000 --bind='0.0.0.0' --themesDir /themes --theme current
-{{< /highlight >}}
+```
 
 When exposed on port `3000`, it allows live-reloading of docs and search in docs
 as well. It is possible to change the theme and theme version by setting
@@ -84,7 +84,7 @@ docker image.
 Here is `config.toml` file I've used for my `docs`, which allow me to configure
 the hugo theme with above mentioned environment variable only:
 
-{{< highlight toml >}}
+```toml
 buildDrafts = true
 title = "My Project"
 
@@ -95,4 +95,4 @@ home = [ "HTML", "RSS", "JSON"]
 [params]
   author = "My team"
   description = "My project's cloud"
-{{< /highlight >}}
+```
