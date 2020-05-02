@@ -55,8 +55,9 @@ h1, h2, h3 {
 }
 
 .container {
-  max-width: 780px;
+  max-width: 70%;
   padding: 0 124px;
+  margin: 0 auto;
 
   @media (max-width: $width-md) {
     max-width: 100%;
