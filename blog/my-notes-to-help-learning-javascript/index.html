@@ -1,168 +1,65 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title> My notes to help learning Javascript </title>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <link rel="stylesheet" href="../../assets/css/main.css" />
+    <link rel="alternate" type="application/rss+xml" title="RSS Feed" href="../../rss.xml" />
+    <link rel="alternate" type="application/atom+xml" title="Atom Feed" href="../../atom.xml" />
+  </head>
 
-<head>
-  <meta charset="UTF-8"/>
-  <title>My notes to help learning Javascript</title>
-  <meta content="width=device-width, initial-scale=1" name="viewport" />
-  
-  <link href="https://channikhabra.com/sass/baseof.min.fffd88fa0305e2d0597933fa0832d8e814115a039e765166595fd0b4d662f6fc.css" rel="stylesheet" />
-  
-  <meta property="og:title" content="My notes to help learning Javascript" />
-<meta property="og:description" content="Patience You need to keep it. Don&rsquo;t rush, it&rsquo;s alright if you are not getting it. Specially if you are from Python world. Javascript is to Python like India is to New Zeland, things are not actually as complicated as they appear, you just need to keep little patience.
-Coffeescript is your friend Coffeescript helped me learn to think in javascript more than any book. I am not saying that you should use coffeescript, but use it for learning more about javascript." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://channikhabra.com/blog/my-notes-to-help-learning-javascript/" />
-<meta property="og:image" content="https://channikhabra.com/img/avatar.png"/>
-<meta property="article:published_time" content="2014-02-12T00:00:00+05:30" />
-<meta property="article:modified_time" content="2014-02-12T00:00:00+05:30" />
+  <section class="container">
+  <header class="root-header">
+    <nav class="top-nav">
+      <div class="brand">
+        <a href="../../">
+          <img class="brand-avatar" src="../../assets/images/avatar.png" alt="Charanjit Singh" />
+        </a>
+      </div>
 
-  <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="https://channikhabra.com/img/avatar.png"/>
+      <ul class="nav-items">
+        <li class="nav-item"><a href="../../blog" title="blog">Blog</a></li>
+        <li class="nav-item"><a href="../../poems" title="blog">Poems</a></li>
+        <li class="nav-item"><a href="../../projects" title="blog">Projects</a></li>
+      </ul>
+    </nav>
+  </header>
 
-<meta name="twitter:title" content="My notes to help learning Javascript"/>
-<meta name="twitter:description" content="Patience You need to keep it. Don&rsquo;t rush, it&rsquo;s alright if you are not getting it. Specially if you are from Python world. Javascript is to Python like India is to New Zeland, things are not actually as complicated as they appear, you just need to keep little patience.
-Coffeescript is your friend Coffeescript helped me learn to think in javascript more than any book. I am not saying that you should use coffeescript, but use it for learning more about javascript."/>
-
-</head>
-<body>
-      <section class="container">
-        <header class='root-header'><nav class='top-nav'>
-  <div class='brand'>
-    <a href='/'>
-      <img class='brand-avatar' src='/img/avatar.png' alt='Personal space of Charanjit Singh' />
-    </a>
-  </div>
-
-  <ul class='nav-items'>
-    
-    <li class='nav-item'><a href='/blog' title='All blog posts'>Blog</a></li>
-    
-    <li class='nav-item'><a href='/categories/poem' title='Poems'>Poems</a></li>
-    
-    <li class='nav-item'><a href='/talks' title='Talks'>Talks</a></li>
-    
-    <li class='nav-item'><a href='/about' title='About me'>About</a></li>
-    
-  </ul>
-</nav>
-</header>
-
-        <main class='root'>
-
-<link href="https://channikhabra.com/sass/single.min.a7c42797b9daf03305b1b6618da780bc6cf37dc077a6ccadb746daaa3cef1cee.css" rel="stylesheet" />
-<section class='content'><header class='content-header'>
+  <main class="root">
+    <section class="content">
+      <header class="content-header">
   <h1>My notes to help learning Javascript</h1>
 
   <span class="content-meta">
-    <span
-      class="meta-item date">Feb 12, 2014</span>
-    
-    <span class="meta-item tags">
-      <ul>
-        
-        <li class="tag"><a href='https://channikhabra.com/tags/javascript'>JAVASCRIPT</a></li>
-        
-      </ul>
-    </span>
+    <span class="meta-item date">February 11, 2014</span>
     
   </span>
 </header>
-<article class='main-article'>
-    <h2 id="patience">Patience</h2>
-<p>You need to keep it. Don&rsquo;t rush, it&rsquo;s alright if you are not getting it.
-Specially if you are from Python world. Javascript is to Python like India is to
-New Zeland, things are not actually as complicated as they appear, you just need
-to keep little patience.</p>
+
+<article class="main-article">
+  <h2 id="patience">Patience</h2>
+<p>You need to keep it. Don’t rush, it’s alright if you are not getting it. Specially if you are from Python world. Javascript is to Python like India is to New Zeland, things are not actually as complicated as they appear, you just need to keep little patience.</p>
 <h2 id="coffeescript-is-your-friend">Coffeescript is your friend</h2>
-<p>Coffeescript helped me learn to think in javascript more than any book. I am not
-saying that you should use coffeescript, but use it for learning more about
-javascript. If you are unable to think something in javascript, do a version of
-it in Coffeescript, generate javascript and try to learn. I don&rsquo;t know how good
-is the generated javascript, but it was good enough for me to not get stuck.
-Emacs helped me a lot in this. I created a buffer with coffee-mode which was not
-visiting any file, and compiled coffee to see javascript in a split window for
-comparison. It really helped to avoid creating temporary files.</p>
-<h2 id="don-t-rely-too-much-on-books-try-something-real">Don&rsquo;t rely too much on books, try something real</h2>
-<p>Books can do only so much to help you. Elequent Javascript is great (or so they
-call it, actually I never got why it&rsquo;s called great), but what a real project
-can teach you is on another level. Go out in wild and try to do some real
-project, for fun of course.</p>
+<p>Coffeescript helped me learn to think in javascript more than any book. I am not saying that you should use coffeescript, but use it for learning more about javascript. If you are unable to think something in javascript, do a version of it in Coffeescript, generate javascript and try to learn. I don’t know how good is the generated javascript, but it was good enough for me to not get stuck. Emacs helped me a lot in this. I created a buffer with coffee-mode which was not visiting any file, and compiled coffee to see javascript in a split window for comparison. It really helped to avoid creating temporary files.</p>
+<h2 id="don-t-rely-too-much-on-books-try-something-real">Don’t rely too much on books, try something real</h2>
+<p>Books can do only so much to help you. Elequent Javascript is great (or so they call it, actually I never got why it’s called great), but what a real project can teach you is on another level. Go out in wild and try to do some real project, for fun of course.</p>
 <h2 id="avoid-dom-and-ui">Avoid DOM and UI</h2>
-<p>DOM manipulation and Javascript have their own concepts which are most times
-confusing to foreigners, specially if you are already infected by JQuery. Make
-your aim to learn Javascript, as a programming language and do something you do
-when learning a new language. Make self-contained scripts which don&rsquo;t need
-browser to work. Of course browser help when you are getting started and with
-&lsquo;console.log&rsquo; you can avoid all sort of DOM manipulation, but that&rsquo;s not what I
-mean. On the next step to getting started, when you &lsquo;think&rsquo; you know some
-javascript, try to make something that involve as little DOM manipulation as
-possible. Try making some simple nodeJs module, or some sort of browser
-extension.</p>
+<p>DOM manipulation and Javascript have their own concepts which are most times confusing to foreigners, specially if you are already infected by JQuery. Make your aim to learn Javascript, as a programming language and do something you do when learning a new language. Make self-contained scripts which don’t need browser to work. Of course browser help when you are getting started and with ‘console.log’ you can avoid all sort of DOM manipulation, but that’s not what I mean. On the next step to getting started, when you ‘think’ you know some javascript, try to make something that involve as little DOM manipulation as possible. Try making some simple nodeJs module, or some sort of browser extension.</p>
 <h2 id="focus-on-getting-it-done-learning-is-a-bonus">Focus on getting it done, learning is a bonus</h2>
-<p>It&rsquo;s better if you choose to do something you want to use, or at least something
-you find really interesting. And focus on getting it done. All ninja skills you
-want to learn come as a bonus. Remember those old Jackie Chan movies in which
-kung-fu master make him do his household chores? Just focus on washing clothes,
-you&rsquo;ll learn iron-fist style without knowing it, as a bonus.</p>
+<p>It’s better if you choose to do something you want to use, or at least something you find really interesting. And focus on getting it done. All ninja skills you want to learn come as a bonus. Remember those old Jackie Chan movies in which kung-fu master make him do his household chores? Just focus on washing clothes, you’ll learn iron-fist style without knowing it, as a bonus.</p>
+</article>
 
-  </article><footer class='content-footer'>
-  <nav>
-    
-    <span class='footer-nav'>
-      <label>Previous</label>
-      <a href="https://channikhabra.com/blog/i-eventually-managed-to-leverage-my-wave/">I Eventually Managed to Leverage My Wave</a>
-    </span>
-    
+    </section>
+  </main>
 
-    
-    <span class='footer-nav'>
-      <label>Next</label>
-      <a href="https://channikhabra.com/blog/one-reason-every-geek-should-blog-for/">One Reason Every Geek Should Blog For</a>
-    </span>
-    
-  </nav>
+  <footer class="content-footer">
+    <nav>
+      
 
-  <div class='post-comments'>
-    <div id="disqus_thread"></div>
-<script type="application/javascript">
-    var disqus_config = function () {
-    
-    
-    
-    };
-    (function() {
-        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
-            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
-            return;
-        }
-        var d = document, s = d.createElement('script'); s.async = true;
-        s.src = '//' + "channikhabrasblog" + '.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-  </div>
-</footer>
+      
+    </nav>
+  </footer>
 </section>
 
-        </main>
-
-        <footer class='root-footer'>
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-40340809-1', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
-
-</footer>
-      </section>
-    </body>
 </html>
