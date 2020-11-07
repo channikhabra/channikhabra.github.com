@@ -1,0 +1,56 @@
+---
+title: "Find a functional programmer for your Javascript team"
+author: "Charanjit Singh"
+date: 2020-11-07T12:17:00+05:30
+tags: Typescript, Javascript, Functional Programming
+---
+
+> From "Functional programmer" I mean a programmer familiar with concepts of
+> [functional programming](https://en.wikipedia.org/wiki/Functional_programming).
+
+A good teammate is someone:
+
+1. **Who takes care of themselves**. They invest in themselves. They care about
+   their software as a craft, as something more than just cramming a whole bunch
+   of frameworks and libraries.
+2. **Who take care of their teammates**.
+   - They help their teammates grow, by mentoring and/or by serving as an
+     example
+   - They are empathetic towards other developers. This is most visible in kind
+     of code a person writes. An empathetic developer writes code for other
+     people.
+     - They give preference to readability of code over micro-optimizations that
+       make them feel clever
+     - They write modular code with independent modules each of which do one
+       thing well. And are easily composed to build more complex functionality.
+     - They write clean, predictable and intuitive APIs
+
+FP is steadily gaining popularity, but it is still not popular enough to breach
+the talent pool I get to interview from. Familiarity with FP is a very good
+indication that the person invest in themselves. And they do that in a manner
+which goes beyond just increasing the number of "frameworks" they have built a
+Todo App in.
+
+Developer empathy is surprisingly rare. In almost a decade of writing code, I
+have met so few developers who really give a fuck that someone else will also
+read their abomination. Most software is written in vacuum. Familiarity with FP
+don't fix that magically.
+
+However there is another factor at play here. Ironically, as a side-effect of
+FP, code written in a functional manner is often a lot more readable than its
+imperative and OOP equivalents (Impromptu quiz: What's so ironic about this
+statement?). Not only is functional code itself naturally declarative, an FP
+person is more likely to wtf when they see unreadable code in PR reviews.
+
+Basic principles of FP also make for great advice for inexperienced developers.
+Good software architecture is hard to learn, it is a lot harder to teach. You
+need a mind capable of holding large amounts of complex code before the fancy
+design patterns even start making sense. In comparison, "pure functions +
+composition" and you are good to go. That is it. That is all you need to know to
+get started with writing modular, testable, simple code; which is easy to write
+and easier to maintain. As a mere side effect of avoiding side effects, you
+write naturally [SOLID](https://en.wikipedia.org/wiki/SOLID) (in spirit) code.
+
+FP is not a silver bullet, but looking for functional programmers skew the
+universe in your favor a little. You are a lot more likely to get good people
+among functional programmers.
