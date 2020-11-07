@@ -5,8 +5,16 @@ date: 2020-11-07T12:17:00+05:30
 tags: Typescript, Javascript, Functional Programming
 ---
 
-> From "Functional programmer" I mean a programmer familiar with concepts of
-> [functional programming](https://en.wikipedia.org/wiki/Functional_programming).
+> Written below are some opinions and rationalizations for them. I have come to
+> these opinions by interviewing and working with people for years. However
+> strongly I feel about them, they can still be wrong. If you have feedback for
+> these, please do contact me on
+> [LinkedIn](https://www.linkedin.com/in/channikhabra/) or
+> [Twitter](https://twitter.com/channikhabra). All kind of feedback is very much
+> appreciated.
+
+From "Functional programmer" I mean a programmer familiar with concepts of
+[functional programming](https://en.wikipedia.org/wiki/Functional_programming).
 
 A good teammate is someone:
 
