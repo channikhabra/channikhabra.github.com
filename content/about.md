@@ -33,4 +33,7 @@ I am open to take freelancing work. I have most experience in
 Javascript/Typescript (both frontend and backend); but can also comfortably work
 with Python, Golang, Haskell and Purescript.
 
-This blog is a dumping ground for my thoughts.
+This blog is an open journal in a way. Usually, I write here when I want to
+- give my thoughts more structure than my personal journal approves
+- share my thoughts with the world, as an act of shouting in the void
+- use the act of making my thoughts public to attain solidifying
